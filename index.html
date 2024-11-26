@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS BUỔI 7-8</title>
+    <style>
+        button{
+            margin-right: 15px;
+            /* cách trên dưới */
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quản lý mảng số nguyên</h1>
+    <div>
+        <label for="inputNumber">Nhập số nguyên:</label>
+        <input type="number" id="inputNumber" placeholder="Nhập số nguyên" style="margin-bottom: 15px;">
+        <button onclick="addNumber()" style="margin-left: 10px;">Thêm số vào mảng</button>
+        <button onclick="resetArray()">Nhập mảng mới</button>
+    </div>
+    <span id="arrayDisplay" style="font-weight: bold;"></span> <br>
+
+    <button onclick="sumPositiveNumbers()">Tổng các số dương</button>
+    <button onclick="countPositiveNumbers()">Đếm số dương</button>
+    <button onclick="findSmallestNumber()">Tìm Số nhỏ nhất</button>
+    <button onclick="findSmallestPositiveNumber()">Tìm Số dương nhỏ nhất</button><br>
+    <button onclick="findLastEvenNumber()">Tìm Số chẵn cuối cùng</button>
+    <button onclick="swapValues()">Đổi chỗ 2 giá trị</button>
+    <button onclick="sortArray()">Sắp xếp tăng dần</button>
+    <button onclick="findFirstPrime()">Số nguyên tố đầu tiên</button><br>
+    <button onclick="countIntegers()">Đếm số nguyên</button>
+    <button onclick="comparePosNeg()">So sánh số lượng số dương và số âm</button>
+    
+    <span id="result"></span>
+
+    <script src="./main.js"></script>
+</body>
+</html>
